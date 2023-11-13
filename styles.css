@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    background-color: rgb(79, 79, 171);
+}
+
+.container {
+    margin: 20%;
+}
+
+#birthday {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+#lucky-num {
+    display: block;
+    margin: 0.5rem 0;
+}
