@@ -1,19 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+:root {
+    --primary-color: #7c3aed;
+}
 body {
-    background-color: rgb(79, 79, 171);
+    background-color: var(--primary-color)
 }
 
 .container {
-    margin: 20%;
+    width: 50%;
+    margin: 20% auto;
 }
 
-#birthday {
-    display: block;
-    margin: 0.5rem 0;
+h1 {
+    text-align: center;
 }
 
-#lucky-num {
+input,label {
     display: block;
-    margin: 0.5rem 0;
+    margin: 0.5rem auto;
+    font-size:larger;
+    width: 100%;
+}
+
+input {
+    padding: 0.5rem;
+    font-size: large;
+    border-radius: 0.5rem;
+    border: transparent;
+}
+
+
+button {
+    display: block;
+    padding: 0.5rem;
+    margin: 2rem auto;
+    font-size: large;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+
+}
+
+#output-area {
+    font-weight:500;
+    font-size: 1.5rem;
+}
+
+.footer {
+    font-size:larger;
+    width: 50%;
+    margin: 30% auto;
+    text-align: center;
+    font-weight: 600;
 }
